@@ -6,21 +6,20 @@ public class Main {
     public static Scanner input = new Scanner(System.in);
     public static String pin, Try;
 
-
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Transaksi transaksi = new Transaksi();
 
-        System.out.println("\t Bank Maju Sejahtera \t");
+        System.out.println("\t Bank Sendiri \t");
         System.out.println("Masukkan PIN (tekan Enter ketika selesai memasukan PIN)");
         pin = input.nextLine();
 
-        if (pin.equals("170845")){
+        if (pin.equals("170845")) {
             Try = "";
             do {
                 transaksi.transaksi();
                 System.out.println("\n Apakah anda ingin mencoba lagi? Y/N");
                 Try = input.nextLine();
-            }while (Try.equalsIgnoreCase("y"));
+            } while (Try.equalsIgnoreCase("y"));
         } else {
             System.out.println("Maaf, nomor PIN anda salah!");
         }
