@@ -26,4 +26,11 @@ public class Main {
         }
     }
 
+    public static String getTry() {
+        return Try;
+    }
+
+    public static void setTry(String aTry) {
+        Try = aTry;
+    }
 }
