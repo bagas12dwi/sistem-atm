@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 
 public class SimpanUang {
-    public static void simpanUang(int tabung, int tambah_saldo[], int index , int saldo, int pilihan2, BufferedReader br) throws IOException {
+    public final void simpanUang(int tabung, int tambah_saldo[], int index , int saldo, int pilihan2, BufferedReader br) throws IOException {
         do{
             System.out.println("=================================================");
             System.out.println("   Masukan Jumlah Uang Yang Ingin Anda Simpan    ");
@@ -28,7 +28,7 @@ public class SimpanUang {
         }while(pilihan2!=2);
     }
 
-    public static void ambilUang(int ambil, int tarik_saldo[], int index2, int isi, int saldo, int pilihan2, BufferedReader br) throws IOException {
+    public final void ambilUang(int ambil, int tarik_saldo[], int index2, int isi, int saldo, int pilihan2, BufferedReader br) throws IOException {
         do{
             System.out.println("=================================================");
             System.out.println("    Masukan Jumlah Uang Yang Ingin Anda Ambil    ");

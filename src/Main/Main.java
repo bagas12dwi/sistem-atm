@@ -15,7 +15,7 @@ public class Main {
 
         int i=0;
         int pilihan, pilihan2 = 0, tabung = 0;
-        int saldo = 50000;
+        int saldo = 50000000;
         int ambil = 0, isi = 0;
         int index=0, index2=0;
         int[] tambah_saldo=new int[20], tarik_saldo=new int[20];

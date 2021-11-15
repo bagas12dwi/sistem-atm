@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class HistoryTransaksi {
 
-    public static void histori(int index, int tambah_saldo[], int index2, int tarik_saldo[], int pilihan2, BufferedReader br) throws IOException {
+    public void histori(int index, int tambah_saldo[], int index2, int tarik_saldo[], int pilihan2, BufferedReader br) throws IOException {
         do{
             System.out.println("=================================================");
             System.out.println("                History Transaksi                ");

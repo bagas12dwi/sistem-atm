@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 
 public class CekSaldo {
-    public static void CekSaldo (int saldo, int pilihan2, BufferedReader br) throws IOException {
+    public void CekSaldo (int saldo, int pilihan2, BufferedReader br) throws IOException {
         do{
             System.out.println("=================================================");
             System.out.println("                    Cek Saldo                    ");
